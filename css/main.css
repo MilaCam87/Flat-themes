@@ -13,3 +13,106 @@
 .clearfix:after {
   clear: both;
 }
+/*footer*/
+
+footer {
+	background-color: #34495e;
+	color:#e5f8ed;
+	font-family: 
+}
+
+.footer2 {
+	background-color: #123e50;
+}
+.col-md-3 a{
+	color: #e5f8ed;
+}
+
+.colfoot {
+	text-align: left;
+}
+
+footer h3 {
+	color: white;
+}
+
+input {
+	box-shadow: inset 0 3px 8px #000;
+}
+
+/*footer segunda parte*/
+
+.menu-footer a {
+	color: #e5f8ed;
+	display: inline;
+}
+
+/*about us*/
+.about-us section h1 p {
+	color: #34495E;
+}
+
+.meetteam {
+	text-align: center;
+}
+
+.members img {
+	border-radius: 90px;
+	text-align: center;
+}
+
+.members h5 {
+	text-align: center;
+	color: #34495E;
+}
+
+.members h6 {
+	text-align: center;
+	color:#9B9B9B;
+}
+
+.members p {
+	text-align: center;
+	color: #3B5064;
+}
+.iconrs img {
+	display: inline;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+/*blog-item*/
+
+.blog-item {
+	background-color: #F5F5F5;
+}
+.parte1 {
+	background-color: white;
+}
+.parte1	img {
+	margin-top: 80px;
+}
+
+.parte1 h1 h4 p {
+	color: #34495E;
+	margin-top: 30px;
+}
+.parte1 ul li {
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #9B9B9B;
+} 
+
+.botbg {
+	color: white;
+	background-color: #357EBD;
+	border-radius: 3px;
+	display: inline;
+}
+
+
+
