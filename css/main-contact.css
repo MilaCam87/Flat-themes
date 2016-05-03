@@ -50,3 +50,12 @@
 	margin-top: 20%;
 	text-align: right;
 }
+/*estilos del formulario*/
+.formulario{
+	background-color: #F5F5F5;
+	padding: 5% 7%;
+	color:  #364B60;
+}
+.mensaje{
+	margin-top: 55px;
+}
