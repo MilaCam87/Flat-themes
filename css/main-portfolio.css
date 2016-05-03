@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+/*estilos de header*/
+.bg-grey{
+	background-color: #34495E;
+}
+.b-none{
+	border: none;
+}
+.pd-5{
+	padding: 5px;
+}
+.mt-3{
+	margin-top: 5px;
+	box-sizing: content-box;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #B8BEC3;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #34405E;
+	color: #FFFFFF;
+}
+/*estilos de portfolio*/
+.portfolio{
+	background-color: #2ECC71;
+	padding: 3% 7%;
+	color: #FFFFFF;
+}
+.portfolio a{
+	color: #ffffff;
+}
+.portfolio a:hover{
+	color: #CECDCD;
+}
+.portfolio ul{
+	margin-top: 20%;
+	text-align: right;
+}
+/*estilos para trabajos*/
+.trabajos{
+	background-color: #F5F5F5;
+	padding: 4% 9%;
+}
+.item1{
+	height: 202px;
+}
+.linea-baja{
+	margin-top: 5%;
+}
+.enlaces{
+	color: #3E3D3D;
+	font-size: 12px;
+	font-weight: bold;
+}
+.thumbnail>img {
+    display: block;
+    height: 240px;
+    max-width: 100%;
+}
