@@ -82,3 +82,12 @@ img{
 	font-size: 10px;
 	color: #525151;
 }
+/*estilos de la lista*/
+.lista{
+	list-style: none;
+}
+.lista a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #515151; 
+}
