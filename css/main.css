@@ -13,3 +13,127 @@
 .clearfix:after {
   clear: both;
 }
+/*footer*/
+
+footer {
+	background-color: #34495e;
+	color:#e5f8ed;
+	font-family: 
+}
+
+.footer2 {
+	background-color: #123e50;
+}
+.col-md-3 a{
+	color: #e5f8ed;
+}
+
+.colfoot {
+	text-align: left;
+}
+
+footer h3 {
+	color: white;
+}
+
+.input-group .form-control{
+	width: 250px;
+}
+/*footer segunda parte*/
+
+.menu-footer a {
+	color: #e5f8ed;
+	display: inline;
+}
+
+/*about us*/
+.about-us section h1 p {
+	color: #34495E;
+}
+
+.about-us {
+	background-color: #F5F5F5;
+}
+
+.meetteam {
+	text-align: center;
+}
+ .members {
+ 	text-align: center;
+ 	border-radius: 90px;
+ }
+
+ .members img {
+ 	border-radius: 90px;
+ 	border-image: 3px solid white;
+ }
+.members h5 {
+	color: #34495E;
+}
+
+.members h6 {
+	color:#9B9B9B;
+}
+
+.members p {
+	color: #3B5064;
+}
+.iconrs img {
+	display: inline;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+/*blog-item*/
+
+.blog-item {
+	background-color: #F5F5F5;
+}
+.parte1 {
+	background-color: white;
+}
+.parte1	img {
+	margin-top: 80px;
+}
+
+.parte1 h1 h4 p {
+	color: #34495E;
+	margin-top: 30px;
+}
+.parte1 ul li {
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #9B9B9B;
+} 
+
+.botones {
+	display: inline;
+}
+
+/*services*/
+
+.service-sect{
+	text-align: center;
+	margin: 40px;
+}
+
+.icred .fa {
+	color: white;
+	background-color: grey;
+	width: 64px;
+	height: 64px;
+	border-radius: 50px;
+}
+
+.fa .fa-windows {
+	margin: 0 auto;
+}
+
+.block {
+	margin: 50px;
+	display: inline;
+}

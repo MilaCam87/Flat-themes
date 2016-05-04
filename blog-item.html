@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <title>Blog Item | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -21,8 +21,242 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
-    <!-- Inserte código aqui -->
-
+    <div class="container-fluid blog-item">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 parte1">
+                    <img src="images/blog/blog2.jpg" height="292" width="730" alt="">
+                    <h1>Duis sed odio sit amet nibh vulputate cusrsus</h1>
+                    <ul>
+                        <li><i class="fa fa-user-plus" aria-hidden="true"></i></li>
+                        <li>John</li>
+                        <li><i class="fa fa-folder" aria-hidden="true"></i></li>
+                        <li>Bootstrap</li>
+                        <li><i class="fa fa-calendar" aria-hidden="true"></i></li>
+                        <li>Sept 16, 2012</li>
+                        <li><i class="fa fa-comment" aria-hidden="true"></i></li>
+                        <li>3 comments</li>
+                    </ul>
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit. Nam quis egestas nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit. Nam quis egestas nulla.</h4>
+                    <p class="pmenos">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit. Nam quis egestas nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit. Nam quis egestas nulla.</p>
+                    <p class="pmenos">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit. Nam quis egestas nulla.</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="botones">
+                        <div class="tags botbg">
+                        <i class="fa fa-tags" aria-hidden="true"></i>
+                        Tags
+                        </div>
+                        <button type="button" class="btn btn-primary">CSS3</button>
+                        <button type="button" class="btn btn-primary">HTML5</button>
+                        <button type="button" class="btn btn-primary">WordPress</button>
+                        <button type="button" class="btn btn-primary">Joomla</button>
+                    </div>
+                    <div class="media jdoe1">
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/blog/thumb1.jpg" height="64" width="64" alt="...">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    John Doe
+                                </h4>
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit.
+                            </div>
+                        </div>
+                    </div>
+                    <h1>3 Comments</h1>
+                        <ul class="media-list">
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="images/blog/avatar1.png" height="50" width="50" alt="...">
+                                    </a>
+                                </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                John Doe
+                            </h4>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit.
+                        </div>
+                    </li>
+                </ul>
+                <ul class="media-list">
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="images/blog/avatar3.png" height="50" width="50" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                John Doe
+                            </h4>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit.
+                        </div>
+                    </li>
+                </ul>
+                <ul class="media-list">
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="images/blog/avatar2.png" height="50" width="50" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                John Doe
+                            </h4>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis elementum urna in faucibus. Cras ut semper turpis. Fusce non elementum nunc. Morbi faucibus dui eu elementum hendrerit.
+                        </div>
+                    </li>
+                </ul>
+                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                    <div class="row">
+                        <label for="name">Tu nombre:</label><br />
+                        <input id="name" class="input" name="name" type="text" value="" size="30" />
+                        <br />
+                        <label for="email">Tu email:</label><br />
+                        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                    </div>
+                    <div class="row">
+                        <label for="message">Tu mensaje:</label><br />
+                        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                    </div>
+                        <input id="submit_button" type="submit" value="Enviar email" />
+                        </form>
+                </div> 
+            </div>
+        </div>                      
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/ads/ad1.png" alt="">
+                            <img src="images/ads/ad3.png" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/ads/ad2.png" alt="">
+                            <img src="images/ads/ad4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h3>Blog Categories</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        > Development
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        > Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        > Updates
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        > Tutorial
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        > News
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        > Joomla
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        > Wordpress
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        > Drupal
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        > Magento
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        > Bootstrap
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>
+                                Tag Cloud
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bot">
+                                CSS3
+                            </div>
+                            <div class="bot">
+                                HTML5
+                            </div>
+                            <div class="bot">
+                                WordPress
+                            </div>
+                            <div class="bot">
+                                Joomla
+                            </div>
+                            <div class="bot">
+                                Droopal
+                            </div>
+                            <div class="bot">
+                                Bootstrap
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="bot">
+                                JQuery
+                            </div>
+                            <div class="bot">
+                                Tutorial
+                            </div>
+                            <div class="bot">
+                                Update
+                            </div>
+                        </div>
+                    </div>
+                    <div class="txt">
+                        <h3>
+                            Facebook Fanpage
+                        </h3>
+                    </div>
+                </div>
+        </div>
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
