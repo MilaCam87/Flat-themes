@@ -13,6 +13,7 @@
 .clearfix:after {
   clear: both;
 }
+
 /*footer*/
 
 footer {
@@ -137,3 +138,96 @@ footer h3 {
 	margin: 50px;
 	display: inline;
 } 
+
+/*estilos de header*/
+.bg-grey{
+	background-color: #34495E;
+}
+.b-none{
+	border: none;
+}
+.pd-5{
+	padding: 5px;
+}
+.pd-4{
+	padding: 4%;
+}
+.mt-3{
+	margin-top: 5px;
+	box-sizing: content-box;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #B8BEC3;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #34405E;
+	color: #FFFFFF;
+}
+/*estilos para banner*/
+.banner{
+	background-image: url(../images/slider/bg1.jpg);
+	background-repeat: no-repeat;
+	padding: 12% 0;
+	background-size: 100% 100%; 
+}
+.texto{
+	padding: 5%;
+	color: #FFFFFF;
+}
+/*estilos de marketing*/
+.marketing{
+	background-color: #2ECC71;
+	padding: 3% 7%;
+	color: #FFFFFF;
+}
+.icon i{
+	background-color: #1C7A44;
+	border-radius: 30px;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 2em;
+	margin-right: 2%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+}
+.marketing p{
+	font-weight: 200;
+	font-size: small;
+}
+/*estilos de proyectos*/
+.proyectos{
+	background-color: #F5F5F5;
+	padding: 5% 7%;
+	color:  #364B60;
+}
+.icon-font i{
+	background-color: #D9534F;
+	border: solid #D54540 1px;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 4px; 
+}
+.proyectos a{
+	text-decoration: none;
+	color: #343333;
+}
+.recent a{
+	background-color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	color: #343333;
+}
+/*estilos de clients*/
+.clients{
+	background-color: #E74C3C;
+	padding: 3% 7%;
+	color: #FFFFFF;
+}
+.encabezado{
+	text-align: center;
+}
